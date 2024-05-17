@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "buyNsell",
+    "slug": "buyNsell",
+    "version": "1.0.0",
+    "sdkVersion": "48.0.0",
+    "platforms": ["ios", "android"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.shubh344.buyNsell"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cd34b1ff-3cc5-474c-9f4b-e5b16e02bcf3"
+      }
+    }
+  }
+}
